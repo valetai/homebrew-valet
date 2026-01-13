@@ -1,10 +1,10 @@
 cask "valet" do
-  version "0.0.0"
-  sha256 "PLACEHOLDER"
+  version "1.0.4"
+  sha256 "71cc7e244108a5568c59063605fc0d2248f294f0116fefa1870719815ca087ec"
 
   url "https://github.com/valetai/homebrew-valet/releases/download/v#{version}/Valet-#{version}-arm64.dmg"
   name "Valet"
-  desc "MCP server and skill deployment and collaboration platform"
+  desc "AI assistant for developers"
   homepage "https://valet.dev"
 
   livecheck do
