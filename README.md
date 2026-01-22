@@ -5,7 +5,7 @@ Homebrew tap for [Valet](https://valet.dev), an AI assistant for developers.
 ## Installation
 
 ```bash
-brew tap valetai/valet
+brew tap valetdotdev/tap
 brew install --cask valet
 ```
 
