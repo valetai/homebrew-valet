@@ -1,6 +1,6 @@
 cask "valet" do
-  version "1.0.13"
-  sha256 "45ff207b53b6a68e77c3f024b89a8658b30182515e8a36f9adb2664c66cbb7a5"
+  version "1.0.14"
+  sha256 "a4bdc6697a9f075b775a055ea6f63c2fb1743ed7c0cdfff1b09b74bb3f069277"
 
   url "https://github.com/valetdotdev/homebrew-tap/releases/download/v#{version}/Valet-#{version}-arm64.dmg"
   name "Valet"
@@ -11,6 +11,8 @@ cask "valet" do
     url :url
     strategy :github_latest
   end
+
+  auto_updates true
 
   app "Valet.app"
 
