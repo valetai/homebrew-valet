@@ -1,6 +1,6 @@
 cask "valet" do
-  version "1.0.18"
-  sha256 "fa42310363998bf241e894d898a0e042d2ba2f8ae8cc71cd36f5c26bcc57b5a4"
+  version "1.0.19"
+  sha256 "3243a9814eb710306a09a0ddc6f9918952a473b99e30dacf971ecf01d7d5a4b2"
 
   url "https://github.com/valetdotdev/homebrew-tap/releases/download/v#{version}/Valet-#{version}-arm64.dmg"
   name "Valet"
